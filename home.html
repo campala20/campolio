@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icons8-camp-66.png" type="image/x-icon">
+    <title>Home | Campala20</title>
+  <meta name="description" content="All about togetherness, families, diversities..">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100,200,400,600' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+
+    <style>
+        /* general styles */
+
+body {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  color: #32ca0c;
+  font-weight: bold;
+}
+
+/* text animasi */
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+.sp-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	/* background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
+	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7)); */
+}
+.sp-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+}
+.sp-container h2 {
+	position: absolute;
+	top: -50%;
+	line-height: 100px;
+	height: 90px;
+	margin-top: -50px;
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
+	color: transparent;
+	-webkit-animation: blurFadeInOut 3s ease-in backwards;
+	-moz-animation: blurFadeInOut 3s ease-in backwards;
+	-ms-animation: blurFadeInOut 3s ease-in backwards;
+	animation: blurFadeInOut 3s ease-in backwards;
+}
+.sp-container h2.frame-1 {
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	animation-delay: 0s;
+}
+.sp-container h2.frame-2 {
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	animation-delay: 3s;
+}
+.sp-container h2.frame-3 {
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
+}
+.sp-container h2.frame-4 {
+	font-size: 50px;
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	animation-delay: 9s;
+}
+.sp-container h2.frame-5 {
+    font-size: 30px;
+	-webkit-animation: none;
+	-moz-animation: none;
+	-ms-animation: none;
+	animation: none;
+	color: transparent;
+	text-shadow: 0px 0px 1px #fff;
+}
+.sp-container h2.frame-5 span {
+	-webkit-animation: blurFadeIn 3s ease-in 12s backwards;
+	-moz-animation: blurFadeIn 1s ease-in 12s backwards;
+	-ms-animation: blurFadeIn 3s ease-in 12s backwards;
+	animation: blurFadeIn 3s ease-in 12s backwards;
+	color: transparent;
+	text-shadow: 0px 0px 1px #fff;
+}
+.sp-container h2.frame-5 span:nth-child(2) {
+	-webkit-animation-delay: 13s;
+	-moz-animation-delay: 13s;
+	-ms-animation-delay: 13s;
+	animation-delay: 13s;
+}
+.sp-container h2.frame-5 span:nth-child(3) {
+	-webkit-animation-delay: 14s;
+	-moz-animation-delay: 14s;
+	-ms-animation-delay: 14s;
+	animation-delay: 14s;
+}
+.sp-globe {
+	position: absolute;
+	width: 282px;
+	height: 273px;
+	left: 50%;
+	top: 50%;
+	margin: -137px 0 0 -141px;
+	/* background: transparent url(http://web-sonick.zz.mu/images/sl/globe.png) no-repeat top left; */
+	-webkit-animation: fadeInBack 3.6s linear 14s backwards;
+	-moz-animation: fadeInBack 3.6s linear 14s backwards;
+	-ms-animation: fadeInBack 3.6s linear 14s backwards;
+	animation: fadeInBack 3.6s linear 14s backwards;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+	-webkit-transform: scale(5);
+	-moz-transform: scale(5);
+	-o-transform: scale(5);
+	-ms-transform: scale(5);
+	transform: scale(5);
+}
+
+/**/
+
+@-webkit-keyframes blurFadeInOut {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		-webkit-transform: scale(1.3);
+	}
+	20%, 75% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		-webkit-transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		text-shadow: 0px 0px 50px #fff;
+		-webkit-transform: scale(0);
+	}
+}
+@-webkit-keyframes blurFadeIn {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		-webkit-transform: scale(1.3);
+	}
+	50% {
+		opacity: 0.5;
+		text-shadow: 0px 0px 10px #fff;
+		-webkit-transform: scale(1.1);
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		-webkit-transform: scale(1);
+	}
+}
+@-webkit-keyframes fadeInBack {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0);
+	}
+	50% {
+		opacity: 0.4;
+		-webkit-transform: scale(2);
+	}
+	100% {
+		opacity: 0.2;
+		-webkit-transform: scale(5);
+	}
+}
+@-webkit-keyframes fadeInRotate {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0) rotate(360deg);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1) rotate(0deg);
+	}
+}
+/**/
+
+@-moz-keyframes blurFadeInOut {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		-moz-transform: scale(1.3);
+	}
+	20%, 75% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		-moz-transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		text-shadow: 0px 0px 50px #fff;
+		-moz-transform: scale(0);
+	}
+}
+@-moz-keyframes blurFadeIn {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		-moz-transform: scale(1.3);
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		-moz-transform: scale(1);
+	}
+}
+@-moz-keyframes fadeInBack {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(0);
+	}
+	50% {
+		opacity: 0.4;
+		-moz-transform: scale(2);
+	}
+	100% {
+		opacity: 0.2;
+		-moz-transform: scale(5);
+	}
+}
+@-moz-keyframes fadeInRotate {
+	0% {
+		opacity: 0;
+		-moz-transform: scale(0) rotate(360deg);
+	}
+	100% {
+		opacity: 1;
+		-moz-transform: scale(1) rotate(0deg);
+	}
+}
+/**/
+
+@keyframes blurFadeInOut {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		transform: scale(1.3);
+	}
+	20%, 75% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		text-shadow: 0px 0px 50px #fff;
+		transform: scale(0);
+	}
+}
+@keyframes blurFadeIn {
+	0% {
+		opacity: 0;
+		text-shadow: 0px 0px 40px #fff;
+		transform: scale(1.3);
+	}
+	50% {
+		opacity: 0.5;
+		text-shadow: 0px 0px 10px #fff;
+		transform: scale(1.1);
+	}
+	100% {
+		opacity: 1;
+		text-shadow: 0px 0px 1px #fff;
+		transform: scale(1);
+	}
+}
+@keyframes fadeInBack {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+	50% {
+		opacity: 0.4;
+		transform: scale(2);
+	}
+	100% {
+		opacity: 0.2;
+		transform: scale(5);
+	}
+}
+@keyframes fadeInRotate {
+	0% {
+		opacity: 0;
+		transform: scale(0) rotate(360deg);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) rotate(0deg);
+	}
+}
+
+p {
+  font-size: 20px;
+  color: #484848;
+}
+
+.section {
+  text-align: center;
+}
+
+.skillbar {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
+/* flash alert styles */
+
+.flash-container {
+  width: 100%;
+  position: fixed;
+  z-index: 700;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.alert {
+  text-align: center !important;
+  width: 500px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  color: #211809 !important;
+}
+
+/* Nav Screen */
+
+.nav-screen {
+  height: 100%;
+  z-index: 500;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.76);
+  opacity: 1;
+  right: -285px; /* start off behind the scenes */
+  -webkit-font-smoothing: antialiased;
+  position: fixed;
+  width: 285px;
+}
+
+.nav-screen .active {
+  display: block;
+}
+
+/* nav header links */
+
+.nav-brand {
+  position: fixed;
+  left: 0;
+  z-index: 600;
+  padding: 10px;
+}
+
+.nav-brand img {
+  width: 50px;
+}
+
+.fa-bars {
+  display: none !important;
+  color: #0cca91;
+  float: right;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  z-index: 500;
+  cursor: pointer;
+}
+
+.fa-times {
+  color: #0cca91;
+  float: right;
+  padding: 20px;
+  right: 0;
+  z-index: 600;
+  cursor: pointer;
+}
+
+.header-links {
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+}
+
+.header-links li {
+  color: #ffffff;
+  display: inline;
+  float: right;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.header-links a {
+  color: #757575;
+  -webkit-transition: all 0.2s ease-in;
+  transition: 1s;
+}
+
+.header-links a:hover {
+  color: #0cca91 !important;
+}
+
+/* slide out nav menu styles */
+
+.nav-container {
+  padding-top: 10%;
+}
+
+.nav-links {
+  width: 250px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-links ul {
+  margin-top: 15%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.nav-links a {
+  color: #ffffff;
+  font-size: 30px;
+  line-height: 2.5;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-links a:hover {
+  color: #0cca91;
+  -webkit-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #5f5f5f !important;
+}
+
+/* Expanding border effect */
+
+.header-links a::after {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  content: "";
+  opacity: 0;
+  -webkit-transition: width 0.6s, opacity 0.8s;
+  -moz-transition: width 0.6s, opacity 0.8s;
+  transition: width 0.6s, opacity 0.8s;
+}
+
+.header-links a:hover::after,
+.header-links a:focus::after {
+  opacity: 1;
+  width: 100%;
+}
+
+/* main header section */
+
+.opaque-bg {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 380px;
+  padding: 1px 1px 5px 5px;
+}
+
+.aboutme {
+   background: url("//unsplash.it/1900/1200?image=600")  
+    no-repeat;
+  background-size: cover;
+}
+
+.aboutme p {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 17.4px;
+}
+
+/* bouncing arrow */
+
+.fa-chevron-down {
+  color: #0cca91 !important;
+  bottom: 10px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 1.2s ease;
+  transition: 1.2s;
+}
+
+/* Scroll down indicator (bouncing) */
+
+@-webkit-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateX(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@-moz-keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+/* about section */
+
+/* Skill bars */
+
+.container-skillbar {
+  width: 100%;
+  padding-top: 30px;
+  padding-right: 2%;
+  padding-left: 2%;
+  height: auto;
+  overflow: none;
+}
+.skillbar {
+  position: relative;
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  background: #efefef;
+  height: 30px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -webkit-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  transition: 0.4s linear;
+  -webkit-transition-property: width, background-color;
+  -moz-transition-property: width, background-color;
+  -ms-transition-property: width, background-color;
+  -o-transition-property: width, background-color;
+  transition-property: width, background-color;
+}
+
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  background: #6adcfa;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.skillbar-title span {
+  display: block;
+  background: rgba(0, 0, 0, 0.15);
+  padding: 0 20px;
+  height: 30px;
+  line-height: 30px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+  height: 30px;
+  width: 0px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* blog section */
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.content-slide {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.content-slide img {
+  width: 70%;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #0cca919a !important;
+  right: 10px !important;
+  top:350px;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #0cca919a transparent transparent !important;
+  left: 10px !important;
+  top: 350px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+  background: rgba(0, 0, 0, 0.62) !important;
+}
+
+/* contact us styles */
+
+.fa-paper-plane {
+  color: #484848;
+}
+
+/* paper plane shake on hover */
+
+.plane-animated {
+  animation-duration: 6s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+}
+
+.fa-paper-plane:hover {
+  /* Toggle our animation play state to running when we are hovering over our sticker */
+  animation-play-state: running;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(10px);
+  }
+}
+.shake {
+  animation-name: shake;
+}
+
+/* input field styles */
+
+.contact-form {
+  padding: 0px 15px 0px 15px;
+}
+
+.form-control {
+  border: 2px solid rgba(0, 0, 0, 0.27);
+  width: 100%;
+  max-width: 100%;
+  height: 3em;
+  font-size: 16px;
+  padding: 1em;
+  margin: 0.5em 0 2em 0;
+  font-weight: bold;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#submit {
+  outline: none;
+  padding: 12px;
+  min-width: 200px;
+  border-radius: 2px;
+  border: 2px solid #0cca91;
+  text-align: center;
+  font-size: 1em;
+  color: #0cca91;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#submit:hover {
+  background-color: #0cca91;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+/* footer styles */
+
+.footer {
+  background-color: #484848;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.footer p {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.social-links a {
+  color: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+
+.social-links a:hover {
+  color: #0cca91;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+/* smaller resolution styles */
+
+@media (min-width: 100px) and (max-width: 500px) {
+  .fa-bars {
+    display: block !important;
+  }
+
+  .header-links {
+    display: none;
+  }
+}
+
+/* mobile styles */
+
+@media (min-width: 100px) and (max-width: 400px) {
+  .content {
+    max-width: 300px;
+  }
+
+  .aboutme h1 {
+    font-size: 28px;
+  }
+}
+
+/* loading screen animation */
+
+.spinner {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 25%;
+  background-color: #2f2f2f;
+  text-align: center;
+  font-size: 10px;
+  z-index: 1000;
+}
+
+.spinner > div {
+  background-color: #0cca91;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1);
+  }
+}
+
+@keyframes sk-stretchdelay {
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+  }
+}
+
+.blinking-cursor {
+  font-weight: 500;
+  margin-left: 4px;
+  font-size: 20px;
+  color: #ffffff !important;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-ms-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+@-o-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #ffffff;
+  }
+}
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* ABOUT */
+.gallery {
+  --s: 150px; /* control the size */
+  --r: 55px;  /* control the triangular shape */
+  place-content: center;
+  display: grid;
+  gap: 3px;
+  grid: auto-flow var(--s)/repeat(2,var(--s));
+  cursor: pointer;
+}
+.gallery > img {
+  object-fit: cover;
+  transition: .5s;
+}
+.gallery > img:is(:nth-child(1),:nth-child(4)) {
+  width: 100%;
+  height: calc(100% + var(--r));
+}
+.gallery > img:is(:nth-child(2),:nth-child(3)) {
+  height: 100%;
+  width: calc(100% + var(--r));
+}
+.gallery > img:nth-child(1) {
+  clip-path: polygon(0 0, 100% 0, calc(100% - var(--r)) calc(50% - var(--r)/2),100% calc(100% - var(--r)),50% 100%,0 calc(100% - var(--r)))
+}
+.gallery > img:nth-child(2) {
+  place-self: end;
+  clip-path: polygon(var(--r) 0,100% 0,100% 100%,calc(50% + var(--r)/2) calc(100% - var(--r)),var(--r) 100%,0 50%)
+}
+.gallery > img:nth-child(3) {
+  clip-path: polygon(0 0,calc(50% - var(--r)/2) var(--r),calc(100% - var(--r)) 0,100% 50%,calc(100% - var(--r)) 100%,0 100%)
+}
+.gallery > img:nth-child(4) {
+  place-self: end;
+  clip-path: polygon(0 var(--r), 50% 0,100% var(--r),100% 100%,0 100%,var(--r) calc(50% + var(--r)/2))
+}
+.gallery:hover {
+  --r: 0px;
+}
+    </style>
+</head>
+    <body>
+        <!-- navbar header -->
+        <div class="nav-header">
+          <div class="nav-brand">
+            <img src="/assets/bg logo.jpg" style="border: 1px solid #ffffff; border-radius:50%">
+          </div>
+          <i class="fa fa-bars fa-3x"></i>
+          <div class="header-links">
+            <ul>
+              <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+              <li data-menuanchor="thirdPage"><a href="#blog">BLOG</a></li>
+              <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- end navbar header -->
+      
+        <!-- sidebar slider -->
+        <div class="nav-screen">
+          <i class="fa fa-times fa-3x"></i>
+          <div class="nav-container">
+            <div class="nav-links">
+              <ul id='myMenu'>
+                <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+                <li data-menuanchor="thirdPage"><a href="#blog">BLOG</a></li>
+                <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end navbar slider -->
+      
+        <!-- begin fullpage -->
+      
+        <div id="fullpage">
+      
+          <!-- begin section -->
+          
+          
+
+          <div class="section aboutme" data-anchor="aboutme">
+            
+            <div class="opaque-bg animated fadeInDown">
+              <div class="sp-container">
+                <div class="sp-content">
+                    <div class="sp-globe"></div>
+                    <h2 class="frame-1">EST 1990.</h2>
+                    <h2 class="frame-2">ACTIVE</h2>
+                    <h2 class="frame-3">AGAIN</h2>
+                    <h2 class="frame-4">2020</h2>
+                    <h2 class="frame-5">
+                        <span>WE ARE</span>
+                        <span>CAMPALA20</span>
+                        <!-- <span>20</span> -->
+                    </h2>
+                </div>
+            </div>
+            
+              <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+            </div>
+            <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+          </div>
+          <!-- end section -->
+      
+          <!-- begin section -->
+      
+          <div class="section" data-anchor="skills">
+            <div class="content">
+              <h1 class="wow fadeInDown" data-wow-delay="0.2s">ABOUT</h1>
+              <p class="wow fadeInDown" data-wow-delay="0.2s">Hi, I'm Campala20! I'm a community engaged in climbing, volunteering, and any activities that include humanity. Campala was formed in 1990 to be precise in April until it was active again in early 2020. For more details, please scroll down!</p>
+      
+              <div class="gallery">
+                <img src="/assets/A1.jpg" alt="Logo Campala">
+                <img src="/assets/A2.jpg" alt="Logo Campala">
+                <img src="/assets/A3.jpg" alt="Logo Campala">
+                <img src="/assets/A4.jpg" alt="Logo Campala">
+              </div>
+            </div>
+          </div>
+          <!-- end section -->
+      
+          <!-- begin section -->
+      
+          <div class="section" data-anchor="projects">
+            <div class="content-slide">
+              <div class="slide">
+                <h1 class="wow fadeInDown" data-wow-delay="0.2s">Minggu Bersih</h1>
+                <p class="wow fadeInDown" data-wow-delay="0.2s">By Campala October 11, 2020</p>
+                <img class="wow fadeInUp" data-wow-delay="0.2s" data-src="/assets/Minggu bersih.gif">
+                <p>Sebab, selain pengabdian masyarakat untuk lingkungan yang asri, kegiatan ini juga menjadi ajang silaturahmi...</p>
+              </div>
+              <div class="slide">
+                <h1>PULAU PARI</h1>
+                <p>August 17, 2020.</p>
+                <video width="252" height="142" controls>
+                  <source data-src="/assets/pulau pari.mp4">
+                </video>
+                <!-- <img data-src="/assets/IMG-20200817-WA0154.jpg"> -->
+                <p>Pulau Pari adalah sebuah pulau yang terletak di Kepulauan Seribu, Pulau indah dengan jalur alam rimbun, serta pantai pasir perawan yang menawan...</p>
+              </div>
+              <div class="slide">
+                <h1>CURUG PUTRI</h1>
+                <p>October 03, 2020.</p>
+                <video width="252" height="142" controls>
+                  <source data-src="/assets/Curugputricarita.mp4">
+                </video>
+                <!-- <img data-src="/assets/putri5.jpg"> -->
+                <p>Curug Putri Carita atau Grand Canyon, Pandeglang. Terletak di lereng Gunung Pulosari...</p>
+              </div>
+              <div class="slide">
+                <h1>CURUG CIPEUTEUY</h1>
+                <p>July 13, 2020.</p>
+                <img data-src="/assets/ezgif.com-gif-maker (2).gif">
+                <p>Curug Cipeuteuy sendiri terletak di kaki Gunung Salak, atau tepatnya di Desa Tapos I, Kecamatan Tenjolaya, Kabupaten Bogor..</p>
+              </div>
+              <!-- <div class="slide">
+                <h1>MOUNT GEDE</h1>
+                <p>July 18, 2020.</p>
+                <img data-src="/assets/2222222.jpg">
+              </div> -->
+              <!-- <div class="slide">
+                <h1>PERSONAL WEBSITE</h1>
+                <p>Responsive vertical/horizontal header website theme.</p>
+                <img data-src="https://s3-us-west-2.amazonaws.com/bradengelhardt/assets/personalsite.jpg">
+              </div> -->
+            </div>
+          </div>
+          <!-- end section -->
+      
+          <!-- begin section -->
+      
+          <div class="section" data-anchor="contact">
+            <div class="content wow fadeInDown" data-wow-delay="0.2s">
+              <h1>CONTACT ME</h1>
+              <p>Whether you're interested in Collaborating with us or just want to say hello, I'd love to hear from you!</p>
+              <br>
+              <div class="contact-form">
+      
+                <div id="form-messages"></div>
+                <form id="ajax-contact" method="post" role="form" action="contact.php" data-toggle="validator">
+                  <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                  </div>
+      
+                  <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                  </div>
+      
+                  <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+                    <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                  </div>
+      
+                  <div class="hidden">
+                    <input type="text" class="form-control" id="human" name="human" placeholder="">
+                  </div>
+                  <div class="wow fadeInUp" data-wow-delay="1s">
+                    <button type="submit" id="submit" name="submit" class="btn btn-lg">SEND MESSAGE</button>
+                  </div>
+                </form>
+                <br>
+              </div>
+            </div>
+          </div>
+          <!-- end section -->
+      
+          <!-- begin section -->
+      
+          <div class="section fp-auto-height">
+            <div class="footer">
+              <p>OUR SOCIAL MEDIA</p>
+              <div class="social-links">
+                <span><a href="https://wa.me/+6283870471220/" target="_blank">
+                  <i class="fa fa-whatsapp fa-2x"></i></a></span>
+                <span><a href="https://www.instagram.com/campala20/" target="_blank">
+                  <i class="fa fa-instagram fa-2x"></i></a></span>
+                <span><a target="_blank" href="404.html" target="_blank">
+                  <i class="fa fa-facebook fa-2x"></i></a></span>
+                <span><a href="404.html">
+                  <i class="fa fa-twitter fa-2x"></i></a></span>
+              </div>
+            </div>
+          </div>
+          <!-- end section -->
+      
+        </div>
+        <!-- end fullpage -->
+
+
+        <script>
+            $(document).ready(function () {
+  // typing animation
+  (function ($) {
+    $.fn.writeText = function (content) {
+      var contentArray = content.split(""),
+        current = 0,
+        elem = this;
+      setInterval(function () {
+        if (current < contentArray.length) {
+          elem.text(elem.text() + contentArray[current++]);
+        }
+      }, 100);
+    };
+  })(jQuery);
+
+  // input text for typing animation
+  $("#holder").writeText("All about togetherness, families, diversities..");
+
+  // initialize wow.js
+  new WOW().init();
+
+  // Push the body and the nav over by 285px over
+  var main = function () {
+    $(".fa-bars").click(function () {
+      $(".nav-screen").animate(
+        {
+          right: "0px"
+        },
+        200
+      );
+
+      $("body").animate(
+        {
+          right: "285px"
+        },
+        200
+      );
+    });
+
+    // Then push them back */
+    $(".fa-times").click(function () {
+      $(".nav-screen").animate(
+        {
+          right: "-285px"
+        },
+        200
+      );
+
+      $("body").animate(
+        {
+          right: "0px"
+        },
+        200
+      );
+    });
+
+    $(".nav-links a").click(function () {
+      $(".nav-screen").animate(
+        {
+          right: "-285px"
+        },
+        500
+      );
+
+      $("body").animate(
+        {
+          right: "0px"
+        },
+        500
+      );
+    });
+  };
+
+  $(document).ready(main);
+
+  // initiate full page scroll
+
+  $("#fullpage").fullpage({
+    scrollBar: true,
+    responsiveWidth: 400,
+    navigation: true,
+    navigationTooltips: ["home", "about", "blog", "contact", "social media"],
+    anchors: ["home", "about", "blog", "contact", "social media"],
+    menu: "#myMenu",
+    fitToSection: false,
+
+    afterLoad: function (anchorLink, index) {
+      var loadedSection = $(this);
+
+      //using index
+      if (index == 1) {
+        /* add opacity to arrow */
+        $(".fa-chevron-down").each(function () {
+          $(this).css("opacity", "1");
+        });
+        $(".header-links a").each(function () {
+          $(this).css("color", "#ffffff");
+        });
+        $(".header-links").css("background-color", "transparent");
+      } else if (index != 1) {
+        $(".header-links a").each(function () {
+          $(this).css("color", "black");
+        });
+        $(".header-links").css("background-color", "#ffffff");
+      }
+
+      //using index
+      if (index == 2) {
+        /* animate skill bars */
+        $(".skillbar").each(function () {
+          $(this)
+            .find(".skillbar-bar")
+            .animate(
+              {
+                width: $(this).attr("data-percent")
+              },
+              2500
+            );
+        });
+      }
+    }
+  });
+
+  // move section down one
+  $(document).on("click", "#moveDown", function () {
+    $.fn.fullpage.moveSectionDown();
+  });
+
+  // fullpage.js link navigation
+  $(document).on("click", "#skills", function () {
+    $.fn.fullpage.moveTo(2);
+  });
+
+  $(document).on("click", "#projects", function () {
+    $.fn.fullpage.moveTo(3);
+  });
+
+  $(document).on("click", "#contact", function () {
+    $.fn.fullpage.moveTo(4);
+  });
+
+  // smooth scrolling
+  $(function () {
+    $("a[href*=#]:not([href=#])").click(function () {
+      if (
+        location.pathname.replace(/^\//, "") ==
+          this.pathname.replace(/^\//, "") &&
+        location.hostname == this.hostname
+      ) {
+        var target = $(this.hash);
+        target = target.length
+          ? target
+          : $("[name=" + this.hash.slice(1) + "]");
+        if (target.length) {
+          $("html,body").animate(
+            {
+              scrollTop: target.offset().top
+            },
+            700
+          );
+          return false;
+        }
+      }
+    });
+  });
+
+  //ajax form
+  $(function () {
+    // Get the form.
+    var form = $("#ajax-contact");
+
+    // Get the messages div.
+    var formMessages = $("#form-messages");
+
+    // Set up an event listener for the contact form.
+    $(form).submit(function (e) {
+      // Stop the browser from submitting the form.
+      e.preventDefault();
+
+      // Serialize the form data.
+      var formData = $(form).serialize();
+
+      // Submit the form using AJAX.
+      $.ajax({
+        type: "POST",
+        url: $(form).attr("action"),
+        data: formData
+      })
+        .done(function (response) {
+          // Make sure that the formMessages div has the 'success' class.
+          $(formMessages).removeClass("error");
+          $(formMessages).addClass("success");
+
+          // Set the message text.
+          $(formMessages).text(response);
+
+          // Clear the form.
+          $("#name").val("");
+          $("#email").val("");
+          $("#message").val("");
+        })
+        .fail(function (data) {
+          // Make sure that the formMessages div has the 'error' class.
+          $(formMessages).removeClass("success");
+          $(formMessages).addClass("error");
+
+          // Set the message text.
+          if (data.responseText !== "") {
+            $(formMessages).text(data.responseText);
+          } else {
+            $(formMessages).text(
+              "Oops! Sorry, this form is under maintenance."
+            );
+          }
+        });
+    });
+  });
+});
+
+        </script>
+</body>
+</html>
