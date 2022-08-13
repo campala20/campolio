@@ -1434,7 +1434,7 @@ label {
       // Submit the form using AJAX.
       $.ajax({
         type: "POST",
-        url: $(form).attr("action"),
+        url: $(contact.php).attr("action"),
         data: formData
       })
         .done(function (response) {
@@ -1460,7 +1460,7 @@ label {
             $(formMessages).text(data.responseText);
           } else {
             $(formMessages).text(
-              "Oops! Sorry, this form is under maintenance."
+              "Oops! Sorry, sorry your message was not sent"
             );
           }
         });
